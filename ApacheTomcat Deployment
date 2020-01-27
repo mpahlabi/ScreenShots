@@ -1,0 +1,81 @@
+ 1  yum install tomcat
+    2  yum install vim
+    3  vim /usr/share/tomcat/conf/tomcat.conf
+    4  yum install tomcat-webapps tomcat-admin-webapps
+    5  yum install tomcat-docs-webapp tomcat-javadoc
+    6  pwd
+    7  cd /usr/share/tomcat/conf/
+    8  ls
+    9  vim tomcat-users.xml
+   10  chkconfig tomcat on
+   11  systemctl tomcat start
+   12  systemctl start tomcat
+   13  systemctl status tomcat
+   14  netstat -tulpn
+   15  netstat -tulpn |grep LISTEN
+   16  ifconfig
+   17  cd /usr/share/tomcat/
+   18  ls
+   19  ls -al
+   20   cd .ssh
+   21  cd ~/.ssh
+   22  ls
+   23  ls  -al
+   24  cat authorized_keys
+   25  ls
+   26  vim authorized_keys
+   27  clear
+   28  cd \
+   29  hostname
+   30  uptime
+   31  netstat -tulpn |grep LISTEN
+   32  cd /tmp
+   33  ls
+   34  ls -al
+   35  vim ~/.ssh/authorized_keys
+   36  netstat -tulpn
+   37  ifconfig
+   38  ifconfig all
+   39  ifconfig /all
+   40  ifconfig
+   41  cd ~/.ssh/
+   42  ls
+   43  cat authorized_keys
+   44  vim authorized_keys
+   45  ls -al
+   46  chmod 700 authorized_keys
+   47  service sshd restart
+   48  systemctl sshd stop
+   49  systemctl ssh stop
+   50  service sshd restart
+   51  systemctl restart sshd.service
+   52  vim /etc/ssh/sshd_config
+   53  systemctl restart sshd.service
+   54  systemctl stop sshd.service
+   55  systemctl start sshd.service
+   56  vim /etc/ssh/sshd_config
+   57  systemctl stop sshd.service
+   58  systemctl start sshd.service
+   59  systemctl stop sshd.service
+   60  chmod 777 authorized_keys
+   61  ls -al
+   62  vim /etc/ssh/sshd_config
+   63  systemctl restart sshd.service
+   64  reboot
+   65  history
+   66  cd /usr/share/tomcat/
+   67  ls
+   68  ls -al
+   69  cd tmp
+   70  cd \tmp
+   71  cd /tmp\
+   72  ls
+   73  ls -al
+   74  chown root:tomcat gameoflife.war
+   75  ls -al
+   76  mv gameoflife.war /usr/share/tomcat/webapps/
+   77  cd /usr/share/tomcat/webapps/
+   78  ls
+   79  history
+   80  pwd
+   81  history
